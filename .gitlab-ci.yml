@@ -1,0 +1,56 @@
+image: node:14.4.0
+
+cache:
+  untracked: true
+  key: '$CI_BUILD_REF_NAME'
+  paths:
+    - node_modules/
+
+stages:
+  - setup
+  - tests
+  - build
+
+before_script:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+install_yarn:
+  dependencies: []
+  stage: setup
+  script:
+    - yarn install
+  tags:
+    - docker
+
+prettier:
+  dependencies: [install_yarn]
+  stage: tests
+  script:
+    - yarn prettier --check .
+  tags:
+    - docker
+
+lint:
+  dependencies: [install_yarn]
+  stage: tests
+  script:
+    - yarn lint
+  tags:
+    - docker
+
+jest:
+  dependencies: [install_yarn]
+  stage: tests
+  script:
+    - yarn jest
+  tags:
+    - docker
+
+build:
+  dependencies: [lint]
+  stage: build
+  script:
+    - yarn build
+  tags:
+    - docker

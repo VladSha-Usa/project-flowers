@@ -1,0 +1,87 @@
+:root {
+  --texticonscolor: #040f2a;
+  --shadow: rgba(9, 21, 85, 0.2);
+  --primarycolor: #1831aa;
+  --transparency: #296fdc;
+  --light-blue-grey: #b9c8e2;
+  --footer-back: #030d22;
+  --invalid-name: #020817;
+  --invalid-name: rgba(9, 21, 85, 0.2);
+  --white: #fff;
+}
+
+.flowers-way-waption {
+  font-family: ArchivoBlack;
+  font-size: 128px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: 5.98px;
+  color: var(--texticonscolor);
+}
+
+.text-style {
+  font-family: ArchivoBlack;
+  font-size: 128px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: 5.98px;
+  color: var(--primarycolor);
+}
+
+.back-title {
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.57;
+  letter-spacing: 0.82px;
+  color: var(--transparency);
+}
+
+.text-style-caption {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  color: var(--texticonscolor);
+  text-transform: uppercase;
+}
+
+.caption-adjust {
+  position: relative;
+  top: -90px;
+  left: 20px;
+}
+
+.viber {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.Prodg-style {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: 0.79px;
+  text-align: center;
+  color: #061434;
+}
+.no-scroll {
+  overflow: hidden;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>map icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="DESIGN" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flowers_way_putivnuk_mobile" transform="translate(-312.000000, -2800.000000)" fill="#1831AA" fill-rule="nonzero">
+            <g id="Lagodiv-box-expanded" transform="translate(16.000000, 2021.000000)">
+                <g id="map-button" transform="translate(213.000000, 764.000000)">
+                    <g id="map-icon" transform="translate(83.000000, 15.000000)">
+                        <path d="M5.92305058,0.0033307393 C2.67632685,-0.106085603 0.0100544747,2.49322957 0.0100544747,5.71523735 C0.0100544747,9.37185992 3.51915953,12.0255875 5.48600778,15.8419922 C5.5858677,16.0357665 5.86480934,16.0360156 5.96501167,15.8422724 C7.74431128,12.4082802 10.7853696,10.1055875 11.3489494,6.79732296 C11.9324825,3.3739144 9.39380545,0.120342412 5.92305058,0.0033307393 Z M5.72522957,8.70888716 C4.07190661,8.70888716 2.73157977,7.36852918 2.73157977,5.71523735 C2.73157977,4.06194553 4.07193774,2.72158755 5.72522957,2.72158755 C7.37855253,2.72158755 8.71891051,4.06194553 8.71891051,5.71523735 C8.71891051,7.36852918 7.37855253,8.70888716 5.72522957,8.70888716 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

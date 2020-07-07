@@ -1,0 +1,47 @@
+{
+  "name": "flowers-way",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "jest": "jest",
+    "lint": "eslint .",
+    "postinstall": "perl -i -pe \"s/require\\('mapbox-gl/\\/\\/ require\\('mapbox-gl/\" ./node_modules/react-mapbox-gl/lib-esm/map.js"
+  },
+  "dependencies": {
+    "firebase": "^7.14.3",
+    "formik": "^2.1.4",
+    "mapbox-gl": "^1.9.1",
+    "next": "^9.3.6",
+    "node-sass": "^4.14.1",
+    "react": "16.13.1",
+    "react-collapsed": "^3.0.0",
+    "react-dom": "16.13.1",
+    "react-mapbox-gl": "^4.8.3",
+    "react-slick": "^0.26.1",
+    "react-text-mask": "^5.4.3",
+    "react-visibility-sensor": "^5.1.1",
+    "reactjs-popup": "^1.5.0",
+    "rxjs": "^6.5.5",
+    "slick-carousel": "^1.8.1",
+    "uuid": "^8.1.0",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^26.1.0",
+    "prettier": "2.0.5",
+    "serverless": "^1.70.0",
+    "serverless-next.js": "^1.15.0-alpha.0"
+  }
+}

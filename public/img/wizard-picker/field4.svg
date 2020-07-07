@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="95px" viewBox="0 0 97 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>field</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-18.4%" y="-140.0%" width="136.8%" height="380.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.046278993   0 0 0 0 0.124869443   0 0 0 0 0.237064085  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Shop-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flowers_way_shop_page_details_new_breadcrumbs" transform="translate(-711.000000, -821.000000)" fill="#000000">
+            <g id="Block-1" transform="translate(100.000000, 210.000000)">
+                <g id="color-strop-collapsed" transform="translate(622.000000, 599.000000)">
+                    <g id="dropdown-color-2" filter="url(#filter-1)" transform="translate(0.000000, 28.000000)">
+                        <circle id="field" cx="37.5" cy="25.5" r="17.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
